@@ -1,0 +1,10 @@
+/* Background: #F5F5F5
+Primary: #4A6FA5
+Secondary: #6B9080
+Accent: #E8C547
+Text: #2E2E2E */
+
+.hero-img {
+  background-image: url(imgs/movie-gallery1.jpg);
+  height: 100vh;
+}
