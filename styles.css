@@ -24,7 +24,7 @@
   transform: translateY(-40%);
   color: white;
   opacity: 0;
-  animation: fadeIn 1.2s ease-out forwards;
+  animation: fadeIn 2s ease-out forwards;
 }
 
 .hero-content h1 {
