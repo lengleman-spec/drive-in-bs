@@ -1,3 +1,12 @@
+body {
+  background-color: #0b0f1a;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: white;
+}
+
 .hero-container {
   position: relative;
 }
@@ -39,6 +48,13 @@
 .hero-content .btn {
   padding: 0.75rem 1.5rem;
   font-size: 1.1rem;
+}
+
+/* Coming Soon Section */
+.coming-soon-container .card-img-top {
+  max-height: 400px;
+  object-fit: contain;
+  background-color: black;
 }
 
 @keyframes fadeIn {
