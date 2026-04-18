@@ -1,10 +1,49 @@
-/* Background: #F5F5F5
-Primary: #4A6FA5
-Secondary: #6B9080
-Accent: #E8C547
-Text: #2E2E2E */
+.hero-container {
+  position: relative;
+}
 
 .hero-img {
   background-image: url(imgs/movie-gallery1.jpg);
+  background-position: center;
+  background-size: cover;
   height: 100vh;
+  position: relative;
+}
+
+.hero-img::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-40%);
+  color: white;
+  opacity: 0;
+  animation: fadeIn 1.2s ease-out forwards;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+}
+
+.hero-content p {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content .btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(-50%);
+  }
 }
