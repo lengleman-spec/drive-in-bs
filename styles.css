@@ -1,4 +1,8 @@
-body {
+/* body {
+  background-color: #0b0f1a;
+} */
+
+.navbar {
   background-color: #0b0f1a;
 }
 
@@ -51,11 +55,39 @@ body {
 }
 
 /* Coming Soon Section */
+.coming-soon-container {
+  color: white;
+  position: relative;
+  background-color: #0b0f1a;
+}
+
+.coming-soon-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at top,
+    rgba(77, 163, 255, 0.15),
+    transparent 60%
+  );
+  pointer-events: none;
+}
+
+.coming-soon-container h2,
+.coming-soon-container .subtext {
+  color: white;
+}
+
 .coming-soon-container .card-img-top {
   max-height: 400px;
   object-fit: contain;
-  background-color: black;
+  background-color: #0b0f1a;
 }
+/* 
+.cards-container {
+  background-color: rgba(11, 15, 26, 0.85);
+  backdrop-filter: blur(4px);
+} */
 
 @keyframes fadeIn {
   to {
