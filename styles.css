@@ -119,6 +119,17 @@
   background-color: #0b0f1a;
 }
 
+/* Admission and Pricing */
+.pricing-container .pricing-title-reveal {
+  opacity: 0;
+  transform: translateX(-120px) scale(0.8);
+  transition: all 1.2s ease;
+}
+
+.pricing-container .pricing-title-reveal.show {
+  opacity: 1;
+  transform: translateX(0) scale(1);
+}
 @keyframes fadeIn {
   to {
     opacity: 1;
