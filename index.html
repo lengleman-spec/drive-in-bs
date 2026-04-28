@@ -185,103 +185,133 @@
     </div>
 
     <!-- Admission and Pricing -->
-    <!-- Admission and Pricing -->
-    <div class="pricing-container p-5">
-      <h2 class="mb-5 pricing-title-reveal">Admission & Pricing</h2>
 
-      <!-- =========================
-       TOP 3 PRICING CARDS
-       ========================= -->
-      <div class="row g-5 justify-content-center">
-        <!-- Adults -->
-        <div class="col-12 col-md-6 col-lg-4 d-flex">
-          <div class="card w-100">
-            <h4 class="card-header">Adults</h4>
-            <div class="card-body">
-              <h5 class="card-title">$11</h5>
-              <ul>
-                <li>Admission for 2 back-to-back movies</li>
-                <li>Free parking</li>
-                <li>Access to WiFi</li>
-              </ul>
-              <a href="#" class="btn btn-primary">
-                Order Tickets <i class="fa-solid fa-arrow-right ms-1"></i>
-              </a>
-            </div>
-          </div>
-        </div>
+    <section class="admission-container">
+      <div class="container-fluid py-5 px-5" id="menu">
+        <h2 class="mb-5 text-center fs-1">Admission & Pricing</h2>
 
-        <!-- Children 4–11 -->
-        <div class="col-12 col-md-6 col-lg-4 d-flex">
-          <div class="card w-100">
-            <h4 class="card-header">Children ages 4 - 11</h4>
-            <div class="card-body">
-              <h5 class="card-title">$7</h5>
-              <ul>
-                <li>Admission for 2 back-to-back movies</li>
-                <li>Free parking</li>
-                <li>Access to WiFi</li>
-                <li>Must be accompanied by an adult</li>
-              </ul>
-              <a href="#" class="btn btn-primary">
-                Order Tickets <i class="fa-solid fa-arrow-right ms-1"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Children 3 and under -->
-        <div class="col-12 col-md-6 col-lg-4 d-flex">
-          <div class="card w-100">
-            <h4 class="card-header">Children 3 and Under</h4>
-            <div class="card-body">
-              <h5 class="card-title">FREE</h5>
-              <ul>
-                <li>Admission for 2 back-to-back movies</li>
-                <li>Free parking</li>
-                <li>Access to WiFi</li>
-                <li>Must be accompanied by an adult</li>
-              </ul>
-              <a href="#" class="btn btn-primary">
-                Order Tickets <i class="fa-solid fa-arrow-right ms-1"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- FOOD PERMIT (MATCHES FULL 3-CARD WIDTH EXACTLY) -->
-      <div class="row mt-5">
-        <div class="col-12">
-          <div class="card text-center food-card w-100 mx-auto">
-            <div class="card-header">Food Permit Pricing</div>
-
-            <div class="card-body">
-              <h5 class="card-title">$7</h5>
-
-              <p class="card-text">
-                Food permit price to bring in outside food is $7 per car or
-                group (if traveling with multiple cars). With that, you receive
-                a $2 discount on any purchase of $10 or more at the Refreshment
-                Center. Just show your valid food permit. Available on same-day
-                purchase.
+        <div class="row g-5">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="admission-card p-4 h-100">
+              <h3 class="admission-card-header text-warning">
+                🎟️ Adults
+                <span class="price float-end">$11</span>
+              </h3>
+              <p>
+                One adult admission good for both back-to-back films. Same night
+                only.
               </p>
 
-              <a href="#" class="btn btn-primary">
-                Get Permit <i class="fa-solid fa-arrow-right ms-1"></i>
-              </a>
+              <ul class="list-unstyled small">
+                <li>1 Adult Ticket</li>
+                <li>2 Same-night Films</li>
+                <li>Free Parking</li>
+                <li>Free WiFi</li>
+              </ul>
             </div>
+          </div>
 
-            <div class="card-footer text-body-secondary">
-              Available daily at entrance
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="admission-card p-4 h-100">
+              <h3 class="admission-card-header text-warning">
+                🎟️ Children (4 - 11)
+                <span class="price float-end">$7</span>
+              </h3>
+              <p>
+                One kid's admission. All children must be accompanied by an
+                adult at all times.
+              </p>
+
+              <ul class="list-unstyled small">
+                <li>1 Kid's Ticket</li>
+                <li>2 Same-night Films</li>
+                <li>Free Parking</li>
+                <li>Free WiFi</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="admission-card p-4 h-100">
+              <h3 class="admission-card-header text-warning">
+                🎟️ Children (3 & Under)
+                <span class="price float-end">FREE</span>
+              </h3>
+              <p>
+                Free admission for children 3 and under. All children must be
+                accompanied by an adult at all times.
+              </p>
+
+              <ul class="list-unstyled small">
+                <li>1 Child Ticket</li>
+                <li>2 Same-night Films</li>
+                <li>Free Parking</li>
+                <li>Free WiFi</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6">
+            <div class="p-4 ticket h-100">
+              <h3 class="text-warning">
+                🎟 Food Permit
+                <span class="price float-end">$7</span>
+              </h3>
+
+              <div class="d-flex justify-content-between">
+                <h5>Food permit price to bring in outside food</h5>
+              </div>
+              <small>1 Food permit per car or group</small>
+
+              <hr />
+
+              <div class="d-flex justify-content-between">
+                <h5>Discounts</h5>
+              </div>
+              <small
+                >Enjoy a $2 discount on a purchase of $10 or more at the
+                Refreshment Center.</small
+              >
+              <br />
+              <small
+                >Show valid food permit at counter to recieve discount.</small
+              >
+              <br />
+              <small>Available on same-day permit purchase only.</small>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6">
+            <div class="p-4 ticket h-100">
+              <h3 class="text-warning">🎟️ Gift Certificate</h3>
+
+              <div class="d-flex justify-content-between">
+                <span
+                  >Receive a complimentary $5 certificate with $30
+                  purchase.</span
+                >
+              </div>
+
+              <hr />
+
+              <div class="d-flex justify-content-between flex-column">
+                <h5>Perks & Info</h5>
+
+                <span>$5 certificates expire 1 year after issue.</span>
+                <span>All other regular certificates have no expiration.</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <!-- Guidelines -->
+    <!-- <div class="guidelines-container p-5">
+      <h2 class="mb-5">Guidelines</h2>
+    </div> -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
->
