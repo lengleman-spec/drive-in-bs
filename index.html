@@ -308,75 +308,85 @@
 
     <!-- Guidelines -->
     <!-- reviews -->
-    <div class="container reviews-section">
-      <div
-        id="carouselExampleAutoplaying"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="reviews-wrapper">
-              <img src="imgs/review1.jpg" class="reviews-img" alt="..." />
+    <section class="reviews-section">
+      <div class="container">
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="reviews-wrapper">
+                <img src="imgs/review1.jpg" class="reviews-img" alt="..." />
 
-              <h5>First Slide</h5>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                voluptatibus officia minima.
-              </p>
+                <h5>First Slide</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                  voluptatibus officia minima.
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="reviews-wrapper">
+                <img
+                  src="imgs/review1.jpg"
+                  class="d-block reviews-img"
+                  alt="..."
+                />
+                <h5>First Slide</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                  voluptatibus officia minima.
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="reviews-wrapper">
+                <img
+                  src="imgs/review1.jpg"
+                  class="d-block reviews-img"
+                  alt="..."
+                />
+                <h5>First Slide</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                  voluptatibus officia minima.
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="carousel-item">
-            <div class="reviews-wrapper">
-              <img
-                src="imgs/review1.jpg"
-                class="d-block reviews-img"
-                alt="..."
-              />
-              <h5>First Slide</h5>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                voluptatibus officia minima.
-              </p>
-            </div>
-          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+            data-bs-interval="1500"
+          >
+            <span aria-hidden="true">
+              <i class="fa-solid fa-chevron-left fs-2 text-dark"></i>
+            </span>
+            <span class="visually-hidden">Previous</span>
+          </button>
 
-          <div class="carousel-item">
-            <div class="reviews-wrapper">
-              <img
-                src="imgs/review1.jpg"
-                class="d-block reviews-img"
-                alt="..."
-              />
-              <h5>First Slide</h5>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                voluptatibus officia minima.
-              </p>
-            </div>
-          </div>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+            data-bs-interval="1500"
+          >
+            <span aria-hidden="true">
+              <i class="fa-solid fa-chevron-right fs-2 text-dark"></i>
+            </span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleAutoplaying"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleAutoplaying"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-    </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
