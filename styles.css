@@ -228,6 +228,13 @@
   font-size: 1.75rem;
 }
 
+.reviews-wrapper p {
+  max-width: 60ch;
+  margin: 15px auto;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
 .reviews-img {
   max-height: 300px;
   border-radius: 50%;
