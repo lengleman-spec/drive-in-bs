@@ -209,6 +209,22 @@
 }
 
 /* Guidelines */
+.guidelines-section {
+  background-color: #f4f4f6;
+  padding: 80px 40px;
+}
+
+.main-heading {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #081b3a;
+}
+
+.subheading {
+  color: #666;
+  font-size: 1.2rem;
+}
+
 .divider {
   display: flex;
   align-items: center;
@@ -226,6 +242,73 @@
 .divider i {
   color: #d62828;
   font-size: 1.8rem;
+}
+
+.guideline-card {
+  background-color: white;
+  border-radius: 18px;
+  padding: 40px 30px;
+  height: 100%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s;
+}
+
+.guideline-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-icon {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #0b2d67;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 25px;
+}
+
+.card-icon.red {
+  background-color: #d62828;
+}
+
+.card-icon i {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.guideline-card h3 {
+  text-align: center;
+  font-weight: bold;
+  color: #081b3a;
+  margin-bottom: 20px;
+}
+
+.small-divider {
+  width: 50px;
+  height: 3px;
+  background-color: #d62828;
+  margin: 0 auto 30px;
+}
+
+.guideline-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.guideline-card li {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  color: #333;
+}
+
+.guideline-card li i {
+  color: #d62828;
+  font-size: 1.2rem;
+  margin-top: 2px;
 }
 
 /* Reviews */
