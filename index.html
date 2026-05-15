@@ -43,7 +43,7 @@
               <a class="nav-link" href="#">Now Showing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Guidelines</a>
+              <a class="nav-link" href="#guidelines">Guidelines</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Picture Gallery</a>
@@ -188,122 +188,229 @@
       </div>
     </div>
 
-    <!-- Admission and Pricing -->
+    <!-- Admission & Pricing -->
+    <section class="admission-container py-5">
+      <div class="container">
+        <!-- Section Heading -->
+        <div class="text-center mb-5">
+          <h2 class="display-5 fw-bold text-white">Admission & Pricing</h2>
+          <p class="text-secondary">Enjoy two movies for one great price.</p>
+        </div>
 
-    <section class="admission-container">
-      <div class="container-fluid py-5 px-5" id="menu">
-        <h2 class="mb-5 text-center fs-1">Admission & Pricing</h2>
-
-        <div class="row g-5">
+        <!-- Pricing Cards -->
+        <div class="row g-4 justify-content-center">
+          <!-- Adults -->
           <div class="col-12 col-md-6 col-lg-4">
-            <div class="admission-card p-4 h-100">
-              <h3 class="admission-card-header text-warning">
-                🎟️ Adults
-                <span class="price float-end">$11</span>
-              </h3>
-              <p>
-                One adult admission good for both back-to-back films. Same night
-                only.
-              </p>
+            <div class="admission-card featured p-4 h-100">
+              <div class="popular-badge">Most Popular</div>
 
-              <ul class="list-unstyled small">
-                <li>1 Adult Ticket</li>
-                <li>2 Same-night Films</li>
-                <li>Free Parking</li>
-                <li>Free WiFi</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="admission-card p-4 h-100">
-              <h3 class="admission-card-header text-warning">
-                🎟️ Children (4 - 11)
-                <span class="price float-end">$7</span>
-              </h3>
-              <p>
-                One kid's admission. All children must be accompanied by an
-                adult at all times.
-              </p>
-
-              <ul class="list-unstyled small">
-                <li>1 Kid's Ticket</li>
-                <li>2 Same-night Films</li>
-                <li>Free Parking</li>
-                <li>Free WiFi</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="admission-card p-4 h-100">
-              <h3 class="admission-card-header text-warning">
-                🎟️ Children (3 & Under)
-                <span class="price float-end">FREE</span>
-              </h3>
-              <p>
-                Free admission for children 3 and under. All children must be
-                accompanied by an adult at all times.
-              </p>
-
-              <ul class="list-unstyled small">
-                <li>1 Child Ticket</li>
-                <li>2 Same-night Films</li>
-                <li>Free Parking</li>
-                <li>Free WiFi</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-6">
-            <div class="p-4 ticket h-100 admission-card">
-              <h3 class="text-warning">
-                🎟 Food Permit
-                <span class="price float-end">$7</span>
-              </h3>
-
-              <div class="d-flex justify-content-between">
-                <h5>Food permit price to bring in outside food</h5>
-              </div>
-              <small>1 Food permit per car or group</small>
-
-              <hr />
-
-              <div class="d-flex justify-content-between">
-                <h5>Discounts</h5>
-              </div>
-              <small
-                >Enjoy a $2 discount on a purchase of $10 or more at the
-                Refreshment Center.</small
+              <div
+                class="d-flex justify-content-between align-items-center mb-4"
               >
-              <br />
-              <small
-                >Show valid food permit at counter to recieve discount.</small
-              >
-              <br />
-              <small>Available on same-day permit purchase only.</small>
+                <h3 class="admission-title">
+                  <i class="bi bi-ticket-perforated-fill me-2"></i>
+                  Adults
+                </h3>
+
+                <div class="price-wrapper text-end">
+                  <span class="currency">$</span>
+                  <span class="price">11</span>
+                </div>
+              </div>
+
+              <p class="card-description">
+                Includes both movies for the same night.
+              </p>
+
+              <ul class="list-unstyled feature-list">
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  2 Same-Night Films
+                </li>
+
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Free Parking
+                </li>
+
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Free WiFi
+                </li>
+              </ul>
+
+              <button class="btn btn-warning w-100 mt-4 fw-semibold">
+                Buy Tickets
+              </button>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-6">
-            <div class="p-4 ticket h-100 admission-card">
-              <h3 class="text-warning">🎟️ Gift Certificate</h3>
+          <!-- Children -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="admission-card p-4 h-100">
+              <div
+                class="d-flex justify-content-between align-items-center mb-4"
+              >
+                <h3 class="admission-title">
+                  <i class="bi bi-person-fill me-2"></i>
+                  Children
+                </h3>
 
-              <div class="d-flex justify-content-between">
-                <span
-                  >Receive a complimentary $5 certificate with $30
-                  purchase.</span
-                >
+                <div class="price-wrapper text-end">
+                  <span class="currency">$</span>
+                  <span class="price">7</span>
+                </div>
               </div>
 
-              <hr />
+              <p class="card-description">
+                Ages 4–11. Must be accompanied by an adult.
+              </p>
 
-              <div class="d-flex justify-content-between flex-column">
-                <h5>Perks & Info</h5>
+              <ul class="list-unstyled feature-list">
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  2 Same-Night Films
+                </li>
 
-                <span>$5 certificates expire 1 year after issue.</span>
-                <span>All other regular certificates have no expiration.</span>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Free Parking
+                </li>
+
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Free WiFi
+                </li>
+              </ul>
+
+              <button class="btn btn-outline-warning w-100 mt-4 fw-semibold">
+                Learn More
+              </button>
+            </div>
+          </div>
+
+          <!-- Children Free -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="admission-card p-4 h-100">
+              <div
+                class="d-flex justify-content-between align-items-center mb-4"
+              >
+                <h3 class="admission-title">
+                  <i class="bi bi-stars me-2"></i>
+                  Ages 3 & Under
+                </h3>
+
+                <div class="price-wrapper text-end">
+                  <span class="free-text">FREE</span>
+                </div>
               </div>
+
+              <p class="card-description">
+                Free admission for children ages 3 and under.
+              </p>
+
+              <ul class="list-unstyled feature-list">
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  2 Same-Night Films
+                </li>
+
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Free Parking
+                </li>
+
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Free WiFi
+                </li>
+              </ul>
+
+              <button class="btn btn-outline-light w-100 mt-4 fw-semibold">
+                Family Info
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Extra Info Cards -->
+        <div class="row g-4 mt-4">
+          <!-- Food Permit -->
+          <div class="col-lg-6">
+            <div class="admission-card p-4 h-100">
+              <div
+                class="d-flex justify-content-between align-items-center mb-3"
+              >
+                <h3 class="admission-title">
+                  <i class="bi bi-cup-straw me-2"></i>
+                  Food Permit
+                </h3>
+
+                <div class="price-wrapper">
+                  <span class="currency">$</span>
+                  <span class="price-small">7</span>
+                </div>
+              </div>
+
+              <p class="card-description">
+                Bring outside food and drinks for your group.
+              </p>
+
+              <hr class="border-secondary" />
+
+              <ul class="list-unstyled feature-list">
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  One permit per vehicle
+                </li>
+
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  $2 concession discount included
+                </li>
+
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Valid same day only
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Gift Certificates -->
+          <div class="col-lg-6">
+            <div class="admission-card p-4 h-100">
+              <div
+                class="d-flex justify-content-between align-items-center mb-3"
+              >
+                <h3 class="admission-title">
+                  <i class="bi bi-gift-fill me-2"></i>
+                  Gift Certificates
+                </h3>
+              </div>
+
+              <p class="card-description">
+                Receive a complimentary $5 certificate with a $30 purchase.
+              </p>
+
+              <hr class="border-secondary" />
+
+              <ul class="list-unstyled feature-list">
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Great for birthdays & date nights
+                </li>
+
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  $5 bonus expires after 1 year
+                </li>
+
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  Standard certificates never expire
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -311,7 +418,7 @@
     </section>
 
     <!-- Guidelines -->
-    <section class="guidelines-section">
+    <section class="guidelines-section" id="guidelines">
       <!-- Heading -->
       <div class="text-center mb-5">
         <h1 class="main-heading">Guidelines</h1>
@@ -358,6 +465,11 @@
                   <span>
                     No photography or video of the movie screen is permitted
                   </span>
+                </li>
+
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span> Play area closes once the movie begins </span>
                 </li>
               </ul>
             </div>
