@@ -149,7 +149,6 @@
 
 .admission-card:hover {
   transform: scale(1.02);
-
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.4);
 }
 
@@ -226,6 +225,11 @@
 /* Buttons */
 .btn-warning {
   border-radius: 12px;
+}
+
+.btn-warning:hover {
+  background-color: #1f1f1f;
+  color: #ffc107;
 }
 
 .btn-outline-warning,
